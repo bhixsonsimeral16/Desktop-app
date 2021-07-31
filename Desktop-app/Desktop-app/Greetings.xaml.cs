@@ -24,5 +24,17 @@ namespace Desktop_app
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (HelloButton.IsChecked == true)
+            {
+                MessageBox.Show("Hello");
+            }
+            else if (GoodbyeButton.IsChecked == true)
+            {
+                MessageBox.Show("Goodbye");
+            }
+        }
     }
 }
