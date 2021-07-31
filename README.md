@@ -1,2 +1,2 @@
 # Desktop-app
-Hello world
+Hello world for WPF applications
